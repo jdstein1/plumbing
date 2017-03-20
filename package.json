@@ -1,0 +1,20 @@
+{
+  "name": "plumbing",
+  "version": "1.0.0",
+  "description": "links to plumbing suppliers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdstein1/plumbing.git"
+  },
+  "author": "Jeffrey D. Stein",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/jdstein1/plumbing/issues"
+  },
+  "homepage": "https://github.com/jdstein1/plumbing#readme"
+}
