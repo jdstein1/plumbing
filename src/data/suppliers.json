@@ -1,0 +1,495 @@
+suppliers=[
+    {
+      "href":"http://www.alumaxshowerdoor.com/",
+      "products":["shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Alumax"
+    },{
+      "href":"http://www.ambaproducts.com/",
+      "products":["towel_warmers"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Amba"
+    },{
+      "href":"http://aquaticbath.com/",
+      "products":["tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Aquatic"
+    },{
+      "href":"http://artos-westover.com/",
+      "products":["towel_warmers", "faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Artos"
+    },{
+      "href":"http://ayrelight.com/",
+      "products":["lighting"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Ayre"
+    },{
+      "href":"http://www.bainultra.com/",
+      "products":["tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Bain Ultra"
+    },{
+      "href":"http://www.barclayproducts.com/",
+      "products":["tubs_castiron", "sinks", "toilets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Barclay"
+    },{
+      "href":"http://www.bascoshowerdoor.com/",
+      "products":["shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Basco"
+    },{
+      "href":"http://www.berensonhardware.com/",
+      "products":["hardware"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Berenson Hardware"
+    },{
+      "href":"http://www.bertch.com/",
+      "products":["cabinets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Bertch"
+    },{
+      "href":"http://www.brizo.com/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Brizo"
+    },{
+      "href":"http://www.centurybathworks.com/",
+      "products":["shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Century Bathworks"
+    },{
+      "href":"http://www.cheviotproducts.com/",
+      "products":["faucets", "tubs_acrylic", "tubs_castiron", "sinks", "toilets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Cheviot"
+    },{
+      "href":"http://www.chicagofaucets.com/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Chicago Facuet"
+    },{
+      "href":"http://www.decolav.com/",
+      "products":["sinks", "countertops", "cabinets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Decolav"
+    },{
+      "href":"http://www.deltafaucet.com/index.html",
+      "products":["faucets", "tubs_acrylic", "toilets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Delta"
+    },{
+      "href":"https://www.dornbracht.com/en/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Dornbracht"
+    },{
+      "href":"http://www.duravit.us/html/default/home.us-en.html#/welcome",
+      "products":["sinks", "toilets", "tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Duravit"
+    },{
+      "href":"http://www.dxv.com/en/",
+      "products":["sinks", "faucets", "toilets", "tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"DXV"
+    },{
+      "href":"http://everpure.pentair.com/",
+      "products":["water_filtration"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Everpure"
+    },{
+      "href":"https://www.ewswater.com/",
+      "products":["water_filtration"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"EWS"
+    },{
+      "href":"http://www.fairmontdesigns.com/bath/",
+      "products":["vanities", "cabinets", "mirrors", "sink_tops"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Fairmont"
+    },{
+      "href":"http://www.feiss.com/",
+      "products":["lighting", "mirrors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Feiss"
+    },{
+      "href":"http://www.fleurco.com/",
+      "products":["shower_doors", "tubs_acrylic", "mirrors", "vanities"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Fleurco"
+    },{
+      "href":"http://www.foremostbath.com/",
+      "products":["vanities", "sink_tops"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Foremost"
+    },{
+      "href":"http://www.geberitnorthamerica.com/",
+      "products":["toilets", "bidets", "urinals", "tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Geberit"
+    },{
+      "href":"http://www.gerberonline.com/",
+      "products":["toilets", "sinks", "faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Gerber"
+    },{
+      "href":"http://www.gessi.com/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Gessi"
+    },{
+      "href":"http://www.gingerco.com/",
+      "products":["accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Ginger"
+    },{
+      "href":"http://www.glasscraftersinc.com/",
+      "products":["shower_doors", "mirrors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Glasscrafters"
+    },{
+      "href":"http://www.graff-faucets.com/en/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Graff"
+    },{
+      "href":"http://www.grohe.com/us/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Grohe"
+    },{
+      "href":"http://www.hansgrohe-usa.com/",
+      "products":["faucets", "tubs_acrylic"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Hansgrohe"
+    },{
+      "href":"http://www.harringtonbrassworks.com/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Harrington Brass"
+    },{
+      "href":"https://hydrosystem.com/",
+      "products":["tubs_acrylic", "sinks"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Hydrosystems"
+    },{
+      "href":"https://www.icerausa.com/",
+      "products":["toilets", "bidets", "sinks"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Icera"
+    },{
+      "href":"http://infinitydrain.com/",
+      "products":["drains"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Infinity Drain"
+    },{
+      "href":"http://shop.insinkerator.com/?utid=sem&amp;gclid=CLu3lNyp5skCFQooaQodi7sC-g",
+      "products":["garbage_disposal"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Insinkerator"
+    },{
+      "href":"http://www.invisiacollection.com/",
+      "products":["safety"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Invisia"
+    },{
+      "href":"http://www.jaclo.com/",
+      "products":["faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Jaclo"
+    },{
+      "href":"http://www.justmfg.com/",
+      "products":["sinks", "faucets"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Just"
+    },{
+      "href":"http://www.kartners.com/",
+      "products":["accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Kartners"
+    },{
+      "href":"http://www.aptations.com/",
+      "products":["mirrors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Kimball &amp; Young"
+    },{
+      "href":"http://www.kohler.com/",
+      "products":["faucets", "sinks", "toilets", "tubs_acrylic", "shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Kohler"
+    },{
+      "href":"http://www.lacava.com/",
+      "products":["tubs_acrylic", "sinks", "faucets", "toilets", "vanities", "cabinets", "mirrors", "accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Lacava"
+    },{
+      "href":"http://lakesbathrooms.co.uk/",
+      "products":["shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Lakes Bathrooms"
+    },{
+      "href":"http://www.us.laufen.com/en",
+      "products":["tubs_acrylic", "sinks", "faucets", "toilets", "bidets", "vanities", "cabinets", "accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Laufen"
+    },{
+      "href":"http://www.linkasink.com/",
+      "products":["sink_tops", "fancy"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Linkasink"
+    },{
+      "href":"http://www.maax.com/en",
+      "products":["tubs_acrylic", "shower_doors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"MAAX/Pearl"
+    },{
+      "href":"http://www.moen.com/",
+      "products":["faucets", "lighting", "accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Moen"
+    },{
+      "href":"http://mountainplumbing.com/",
+      "products":["plumbing"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Mountain Products"
+    },{
+      "href":"http://www.mrsteam.com/",
+      "products":["steam"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Mr. Steam"
+    },{
+      "href":"http://mtibaths.com/",
+      "products":["tubs_acrylic", "sinks", "vanities"],
+      "styles":["modern"],
+      "review":"noreview",
+      "name":"MTI"
+    },{
+      "href":"http://www.myson.co.uk/",
+      "products":["towel_warmers", "radiators", "heated_floors"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Myson"
+    },{
+      "href":"http://www.nativetrails.net/",
+      "products":["sinks", "tubs_copper", "tubs_concrete", "vanities", "mirrors", "accessories"],
+      "styles":["contemporary", "transitional"],
+      "review":"nope",
+      "name":"Native Trails"
+    },{
+      "href":"http://produitsneptune.com/en/",
+      "products":["tubs_acrylic", "toilets", "sinks", "faucets"],
+      "styles":["contemporary", "traditional", "transitional"],
+      "review":"noreview",
+      "name":"Neptune"
+    },{
+      "href":"http://www.newportbrass.com/",
+      "products":["faucets", "accessories"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Newport Brass"
+    },{
+      "href":"http://www.oceania-attitude.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Oceania"
+    },{
+      "href":"http://www.oliverisinks.com/us/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Oliveri"
+    },{
+    "href":"http://shop.panasonic.com/home-and-office/power-tools-and-ventilation-systems/ven,ceiling-insert-fans#", 
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Panasonic"
+    },{
+      "href":"http://www.phylrich.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Phylrich"
+    },{
+      "href":"http://www.quiescenceisd.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Quiescence Stone"
+    },{
+      "href":"http://www.richelieu.com/us/en/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Richilieu"
+    },{
+      "href":"http://www.robern.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Robern"
+    },{
+      "href":"http://rohlhome.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Rohl"
+    },{
+      "href":"http://www.ronbow.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Ronbow"
+    },{
+      "href":"http://ryvyr.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Ryvyr"
+    },{
+      "href":"http://www.santecfaucet.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Santec"
+    },{
+      "href":"http://schaubandcompany.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Schaub"
+    },{
+      "href":"http://smedbo.businesscatalyst.com/index.html",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Smedbo"
+    },{
+      "href":"http://www.stthomascreations.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"St. Thomas"
+    },{
+      "href":"https://www.thermasol.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Thermasol"
+    },{
+      "href":"http://www.totousa.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Toto"
+    },{
+      "href":"http://thefurnitureguild.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Vanity Flair"
+    },{
+      "href":"http://vandabaths.com/can/americas/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Victoria + Albert"
+    },{
+      "href":"http://www.villeroy-boch.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Villeroy &amp; Boch"
+    },{
+      "href":"http://www.vissoni.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Vissoni"
+    },{
+      "href":"http://www.waterstoneco.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Waterstone"
+    },{
+      "href":"http://www.waterdecor.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Water Décor"
+    },{
+      "href":"http://wetstyle.ca/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Wet Style"
+    },{
+      "href":"https://www.woodpro.com/",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Woodpro"
+    },{
+      "href":"http://www.zucchettikos.it/en/zucchetti-about-us",
+      "products":["noproducts"],
+      "styles":["nostyle"],
+      "review":"noreview",
+      "name":"Zucchetti"
+    }
+  ]

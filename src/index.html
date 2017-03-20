@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banner Plumbing - Suppliers</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"></link>
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+  <h2>Banner Plumbing</h2>
+  <h1>Suppliers</h1>
+
+  <table>
+    <tr>
+      <td>
+        <div class="sorting">
+          <h4>Sorting</h4>
+          <div class="sort">Alpha <span class="icon arrow"></span></div>
+          <div class="sort">Style <span class="icon arrow"></span></div>
+          <div class="sort">Review <span class="icon arrow"></span></div>
+        </div>
+      </td>
+      <td>
+        <div class="filtering">
+          <h4>Filtering</h4>
+          <div class="filter"><label for="prod_bidets"><input type="checkbox" id="prod_bidets">bidets</label></div>
+          <div class="filter"><label for="prod_cabinets"><input type="checkbox" id="prod_cabinets">cabinets</label></div>
+          <div class="filter"><label for="prod_countertops"><input type="checkbox" id="prod_countertops">countertops</label></div>
+          <div class="filter"><label for="prod_faucets"><input type="checkbox" id="prod_faucets">faucets</label></div>
+          <div class="filter"><label for="prod_hardware"><input type="checkbox" id="prod_hardware">hardware</label></div>
+          <div class="filter"><label for="prod_lighting"><input type="checkbox" id="prod_lighting">lighting</label></div>
+          <div class="filter"><label for="prod_shower_doors"><input type="checkbox" id="prod_shower_doors">shower_doors</label></div>
+          <div class="filter"><label for="prod_sinks"><input type="checkbox" id="prod_sinks">sinks</label></div>
+          <div class="filter"><label for="prod_toilets"><input type="checkbox" id="prod_toilets">toilets</label></div>
+          <div class="filter"><label for="prod_towel_warmers"><input type="checkbox" id="prod_towel_warmers">towel_warmers</label></div>
+          <div class="filter"><label for="prod_tubs_acrylic"><input type="checkbox" id="prod_tubs_acrylic">tubs_acrylic</label></div>
+          <div class="filter"><label for="prod_tubs_castiron"><input type="checkbox" id="prod_tubs_castiron">tubs_castiron</label></div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <h3>Choose products from these plumbing product makers:</h3>
+  <ul id="suppliers"></ul>
+
+</div>
+  
+  <script type="text/javascript" src="data/suppliers.json"></script>
+
+  <script type="text/template" id="vendor-template">
+    <h5><a href='<%= href %>' target='_blank'><%= name %></a></h5>
+    <ul>
+      <li>link: <%= href %></li>
+      <li>products: <%= products %></li>
+      <li>styles: <%= styles %></li>
+      <li>review: <%= review %></li>
+    </ul>
+  </script>
+
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="../bower_components/underscore/underscore.js"></script>
+  <script type="text/javascript" src="../bower_components/backbone/backbone.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>
