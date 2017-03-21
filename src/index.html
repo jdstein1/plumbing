@@ -10,24 +10,19 @@
 
 <div id="wrapper">
 
-  <h2>Banner Plumbing</h2>
-  <h1>Suppliers</h1>
+<header>
+  <h3>Banner Plumbing</h3>
+  <h2>Suppliers</h2>
+</header>
 
-  <table>
-    <tr>
-      <td>
-        <div id="searching">
-          <input type="search" placeholder="search" id="searchBox"></input>
-        </div>
-      </td>
-      <td>
-        <div id="sorting"></div>
-      </td>
-      <td>
-        <div id="filtering"></div>
-      </td>
-    </tr>
-  </table>
+  <div id="tools">
+    <div id="searching" class="">
+      <h5>search</h5>
+      <input type="search" placeholder="search" id="searchBox" class="search form-control"></input>
+    </div>
+    <div id="filtering" class=""></div>
+    <div id="sorting" class=""></div>
+  </div>
 
   <h3>Choose products from these plumbing product makers:</h3>
   <ul id="suppliers"></ul>
@@ -37,13 +32,13 @@
   <script type="text/javascript" src="data/suppliers.json"></script>
 
   <script type="text/template" id="vendor-template">
-    <h5 class="vendor-header"><%= name %></h5>
+    <div class="header"><%= name %> <span class="type"><%= type %></span></div>
     <ul class="details">
-      <li>type: <%= type %></li>
-      <li>link: <a href='<%= href %>' target='_blank'>website</a></li>
-      <li>products: <%= products %></li>
-      <li>styles: <%= styles %></li>
-      <li>review: <%= review %></li>
+      <li><span class="label">type:</span> <%= type %></li>
+      <li><span class="label">link:</span> <a href='<%= href %>' target='_blank'>website</a></li>
+      <li><span class="label">products:</span> <%= products %></li>
+      <li><span class="label">styles:</span> <%= styles %></li>
+      <li><span class="label">review:</span> <%= review %></li>
     </ul>
   </script>
 
