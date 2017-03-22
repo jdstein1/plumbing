@@ -2,74 +2,74 @@ suppliers=[
     {
       "href":"http://www.alumaxshowerdoor.com/",
       "products":["shower_doors"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary"],
+      "review":"meh",
       "name":"Alumax"
     },{
       "href":"http://www.ambaproducts.com/",
       "products":["towel_warmers"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary"],
+      "review":"nice",
       "name":"Amba"
     },{
       "href":"http://aquaticbath.com/",
       "products":["tubs_acrylic"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary"],
+      "review":"nope",
       "name":"Aquatic"
     },{
       "href":"http://artos-westover.com/",
       "products":["towel_warmers", "faucets"],
-      "styles":["nostyle"],
+      "styles":["modern","contemporary","traditional"],
       "review":"noreview",
       "name":"Artos"
     },{
       "href":"http://ayrelight.com/",
       "products":["lighting"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["modern","contemporary"],
+      "review":"nope",
       "name":"Ayre"
     },{
       "href":"http://www.bainultra.com/",
       "products":["tubs_acrylic"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary"],
+      "review":"nope",
       "name":"Bain Ultra"
     },{
       "href":"http://www.barclayproducts.com/",
       "products":["tubs_castiron", "sinks", "toilets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["traditional"],
+      "review":"nice",
       "name":"Barclay"
     },{
       "href":"http://www.bascoshowerdoor.com/",
       "products":["shower_doors"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary"],
+      "review":"meh",
       "name":"Basco"
     },{
       "href":"http://www.berensonhardware.com/",
       "products":["hardware"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary","traditional","transitional","modern"],
+      "review":"meh",
       "name":"Berenson Hardware"
     },{
       "href":"http://www.bertch.com/",
-      "products":["cabinets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "products":["cabinets_bath","cabinets_kitchen","vanities"],
+      "styles":["contemporary","traditional","transitional","modern"],
+      "review":"meh",
       "name":"Bertch"
     },{
       "href":"http://www.brizo.com/",
       "products":["faucets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary","transitional","modern"],
+      "review":"nope",
       "name":"Brizo"
     },{
       "href":"http://www.centurybathworks.com/",
-      "products":["shower_doors"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "products":["shower_doors","cabinets_medicine"],
+      "styles":["transitional"],
+      "review":"meh",
       "name":"Century Bathworks"
     },{
       "href":"http://www.cheviotproducts.com/",
