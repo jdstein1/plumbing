@@ -20,13 +20,13 @@ suppliers=[
     },{
       "href":"http://artos-westover.com/",
       "products":["towel_warmers", "faucets"],
-      "styles":["modern","contemporary","traditional"],
+      "styles":["modern", "contemporary", "traditional"],
       "review":"noreview",
       "name":"Artos"
     },{
       "href":"http://ayrelight.com/",
       "products":["lighting"],
-      "styles":["modern","contemporary"],
+      "styles":["modern", "contemporary"],
       "review":"nope",
       "name":"Ayre"
     },{
@@ -50,62 +50,62 @@ suppliers=[
     },{
       "href":"http://www.berensonhardware.com/",
       "products":["hardware"],
-      "styles":["contemporary","traditional","transitional","modern"],
+      "styles":["contemporary", "traditional", "transitional", "modern"],
       "review":"meh",
       "name":"Berenson Hardware"
     },{
       "href":"http://www.bertch.com/",
-      "products":["cabinets_bath","cabinets_kitchen","vanities"],
-      "styles":["contemporary","traditional","transitional","modern"],
+      "products":["cabinets_bath", "cabinets_kitchen", "vanities"],
+      "styles":["contemporary", "traditional", "transitional", "modern"],
       "review":"meh",
       "name":"Bertch"
     },{
       "href":"http://www.brizo.com/",
       "products":["faucets"],
-      "styles":["contemporary","transitional","modern"],
+      "styles":["contemporary", "transitional", "modern"],
       "review":"nope",
       "name":"Brizo"
     },{
       "href":"http://www.centurybathworks.com/",
-      "products":["shower_doors","cabinets_medicine"],
+      "products":["shower_doors", "cabinets_medicine"],
       "styles":["transitional"],
       "review":"meh",
       "name":"Century Bathworks"
     },{
       "href":"http://www.cheviotproducts.com/",
       "products":["faucets", "tubs_acrylic", "tubs_castiron", "sinks", "toilets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["contemporary", "traditional", "transitional", "modern"],
+      "review":"ok",
       "name":"Cheviot"
     },{
       "href":"http://www.chicagofaucets.com/",
       "products":["faucets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["industrial", "commercial"],
+      "review":"ok",
       "name":"Chicago Facuet"
     },{
       "href":"http://www.decolav.com/",
-      "products":["sinks", "countertops", "cabinets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "products":["sinks", "countertops", "cabinets_bath", "vanities", "mirrors"],
+      "styles":["transitional", "contemporary"],
+      "review":"nope",
       "name":"Decolav"
     },{
       "href":"http://www.deltafaucet.com/index.html",
       "products":["faucets", "tubs_acrylic", "toilets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["transitional", "contemporary"],
+      "review":"nope",
       "name":"Delta"
     },{
       "href":"https://www.dornbracht.com/en/",
       "products":["faucets"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "styles":["modern", "contemporary"],
+      "review":"ok",
       "name":"Dornbracht"
     },{
       "href":"http://www.duravit.us/html/default/home.us-en.html#/welcome",
-      "products":["sinks", "toilets", "tubs_acrylic"],
-      "styles":["nostyle"],
-      "review":"noreview",
+      "products":["sinks", "toilets", "tubs_acrylic", "bidets", "urinals"],
+      "styles":["modern"],
+      "review":"meh",
       "name":"Duravit"
     },{
       "href":"http://www.dxv.com/en/",
