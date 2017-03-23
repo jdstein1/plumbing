@@ -12,10 +12,10 @@
 
   app.routers.Router = Backbone.Router.extend({
     routes:{
-      'filter/type/:type':'urlFilterType',
-      'filter/product/:product':'urlFilterProduct',
-      'filter/style/:style':'urlFilterStyle',
-      'filter/review/:review':'urlFilterReview'
+      'filter__type/:type':'urlFilterType',
+      'filter__product/:product':'urlFilterProduct',
+      'filter__style/:style':'urlFilterStyle',
+      'filter__review/:review':'urlFilterReview'
     },
     urlFilterType: function(type) {
       myMatrix.filterType = type;

@@ -25,7 +25,7 @@ app.views.Vendor = Backbone.View.extend({
 
   showDetails: function(e) {
     console.log('e.target: ', e.target);
-    $(e.target).toggleClass('active');
+    $(e.target).toggleClass('current');
     $(e.target).siblings('.details').slideToggle('fast');
   }
 
@@ -89,9 +89,9 @@ app.views.Suppliers = Backbone.View.extend({
 
   createTypeFilter: function() {
     console.log('this.getTypes(): ', this.getTypes());
-    var filters = '<label>filter by type</label><br /><a class="btn btn-default filter type" role="button" href="#all">all</a>';
+    var filters = '<label>filter by vendor diversity</label><br /><a class="btn btn-default filter type" role="button" href="#all">all</a>';
     _.each(this.getTypes(), function(item) {
-      filters += '<a class="btn btn-default filter type" role="button" href="#'+item+'">'+item+'</a>';
+      filters += '<a class="btn btn-default filter type" role="button" href="#'+item+'">'+item+'-product</a>';
     })
     return filters;
   },
@@ -180,8 +180,10 @@ app.views.Suppliers = Backbone.View.extend({
   },
 
   setFilterType: function(e) {
+    console.dir(e.currentTarget);
+    console.log('e.currentTarget.hash: ', e.currentTarget.hash.slice(1));
     e.preventDefault();
-    this.filterType = e.currentTarget.innerHTML;
+    this.filterType = e.currentTarget.hash.slice(1);
     this.trigger('change:filterType');
   },
 
@@ -197,7 +199,7 @@ app.views.Suppliers = Backbone.View.extend({
           return item.get('type') === filterType;
         });
       this.collection.reset(filtered);
-      myRouter.navigate('filter/type/'+filterType);
+      myRouter.navigate('filter__type/'+filterType);
     }
     console.log('this.collection: ', this.collection.length);
   },
@@ -220,7 +222,7 @@ app.views.Suppliers = Backbone.View.extend({
           return item.get('products').includes(filterProduct);
         });
       this.collection.reset(filtered);
-      myRouter.navigate('filter/product/'+filterProduct);
+      myRouter.navigate('filter__product/'+filterProduct);
     }
     console.log('this.collection: ', this.collection.length);
   },
@@ -243,7 +245,7 @@ app.views.Suppliers = Backbone.View.extend({
           return item.get('styles').includes(filterStyle);
         });
       this.collection.reset(filtered);
-      myRouter.navigate('filter/style/'+filterStyle);
+      myRouter.navigate('filter__style/'+filterStyle);
     }
     console.log('this.collection: ', this.collection.length);
   },
@@ -266,7 +268,7 @@ app.views.Suppliers = Backbone.View.extend({
           return item.get('review') === filterReview;
         });
       this.collection.reset(filtered);
-      myRouter.navigate('filter/review/'+filterReview);
+      myRouter.navigate('filter__review/'+filterReview);
     }
     console.log('this.collection: ', this.collection.length);
   }

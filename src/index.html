@@ -15,23 +15,33 @@
     </header>
 
     <div id="tools">
-      <button class="btn" data-toggle="collapse" data-target="#searching" aria-expanded="false">searching</button>
-      <button class="btn" data-toggle="collapse" data-target="#filtering" aria-expanded="false">filtering</button>
-      <button class="btn" data-toggle="collapse" data-target="#sorting" aria-expanded="false">sorting</button>
-      <div id="searching" class="collapse">
-        <fieldset class="form-group">
-          <label>search by name</label>
-          <input type="search" placeholder="search" id="searchBox" class="search form-control">
-        </fieldset>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="">
+          <a data-toggle="tab" role="tab" href="#searching" aria-controls="searching">searching</a>
+        </li>
+        <li role="presentation">
+          <a data-toggle="tab" role="tab" href="#filtering" aria-controls="filtering">filtering</a>
+        </li>
+        <li role="presentation">
+          <a data-toggle="tab" role="tab" href="#sorting" aria-controls="sorting">sorting</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="searching" role="tabpanel" class="tab-pane">
+          <fieldset class="form-group">
+            <label>search by name</label>
+            <input type="search" placeholder="search" id="searchBox" class="search form-control">
+          </fieldset>
+        </div>
+        <div id="filtering" role="tabpanel" class="tab-pane">
+          <fieldset class="form-group" id="byType"></fieldset>
+          <fieldset class="form-group" id="byProduct"></fieldset>
+          <fieldset class="form-group" id="byStyles"></fieldset>
+          <fieldset class="form-group" id="byReview"></fieldset>
+        </div>
+        <div id="sorting" role="tabpanel" class="tab-pane"></div>
+        <div id="counting"></div>
       </div>
-      <div id="filtering" class="collapse">
-        <fieldset class="form-group" id="byType"></fieldset>
-        <fieldset class="form-group" id="byProduct"></fieldset>
-        <fieldset class="form-group" id="byStyles"></fieldset>
-        <fieldset class="form-group" id="byReview"></fieldset>
-      </div>
-      <div id="sorting" class="collapse"></div>
-      <div id="counting"></div>
     </div>
 
     <h3>Choose products from these plumbing product makers:</h3>
