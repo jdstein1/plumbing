@@ -189,7 +189,7 @@ app.views.Suppliers = Backbone.View.extend({
     console.log('this.filterType: ', this.filterType);
     if (this.filterType === 'all') {
       this.collection.reset(suppliers);
-      myRouter.navigate('filter/type/all');
+      myRouter.navigate('');
     } else {
       this.collection.reset(suppliers, {silent:true});
       var filterType = this.filterType,
@@ -212,7 +212,7 @@ app.views.Suppliers = Backbone.View.extend({
     console.log('this.filterProduct: ', this.filterProduct);
     if (this.filterProduct === 'all') {
       this.collection.reset(suppliers);
-      myRouter.navigate('filter/product/all');
+      myRouter.navigate('');
     } else {
       this.collection.reset(suppliers, {silent:true});
       var filterProduct = this.filterProduct,
@@ -235,7 +235,7 @@ app.views.Suppliers = Backbone.View.extend({
     console.log('this.filterStyle: ', this.filterStyle);
     if (this.filterStyle === 'all') {
       this.collection.reset(suppliers);
-      myRouter.navigate('filter/style/all');
+      myRouter.navigate('');
     } else {
       this.collection.reset(suppliers, {silent:true});
       var filterStyle = this.filterStyle,
@@ -258,7 +258,7 @@ app.views.Suppliers = Backbone.View.extend({
     console.log('this.filterReview: ', this.filterReview);
     if (this.filterReview === 'all') {
       this.collection.reset(suppliers);
-      myRouter.navigate('filter/review/all');
+      myRouter.navigate('');
     } else {
       this.collection.reset(suppliers, {silent:true});
       var filterReview = this.filterReview,
