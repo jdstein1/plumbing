@@ -464,8 +464,10 @@ suppliers=[
         "http://www.phylrich.com/products/pressure-balance-shower-set-501-22/",
         "http://www.phylrich.com/products/34-thermostat-4-104/",
         "http://www.phylrich.com/products/widespread-faucet-500-01/",
-        "http://www.phylrich.com/products/widespread-faucet-501-02/"
-      ]
+        "http://www.phylrich.com/products/widespread-faucet-501-02/",
+        "http://www.phylrich.com/products-by-category/exposed-tub-and-shower-sets/"
+      ],
+      "notes":["Can we put same handles as faucet on tub filler?"]
     },{
       "href":"http://www.quiescenceisd.com/",
       "products":["sinks", "sink_tops", "accessories"],

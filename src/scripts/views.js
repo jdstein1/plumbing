@@ -88,7 +88,7 @@ app.views.Suppliers = Backbone.View.extend({
   },
 
   createTypeFilter: function() {
-    console.log('this.getTypes(): ', this.getTypes());
+    // console.log('this.getTypes(): ', this.getTypes());
     var filters = '<label>filter by vendor diversity</label><br /><a class="btn btn-default filter type" role="button" href="#all">all</a>';
     _.each(this.getTypes(), function(item) {
       filters += '<a class="btn btn-default filter type" role="button" href="#'+item+'">'+item+'-product</a>';
@@ -101,7 +101,7 @@ app.views.Suppliers = Backbone.View.extend({
   },
 
   createProductFilter: function() {
-    console.log('this.getProducts(): ', this.getProducts());
+    // console.log('this.getProducts(): ', this.getProducts());
     var allItems = [];
     var filters = '<label>filter by product category</label><br /><a class="btn btn-default filter product" role="button" href="#all">all</a>';
     _.each(this.getProducts(), function(items) {
@@ -124,7 +124,7 @@ app.views.Suppliers = Backbone.View.extend({
   },
 
   createStyleFilter: function() {
-    console.log('this.getStyles(): ', this.getStyles());
+    // console.log('this.getStyles(): ', this.getStyles());
     var allItems = [];
     var filters = '<label>filter by styles offered</label><br /><a class="btn btn-default filter style" role="button" href="#all">all</a>';
     _.each(this.getStyles(), function(items) {
@@ -147,7 +147,7 @@ app.views.Suppliers = Backbone.View.extend({
   },
 
   createReviewFilter: function() {
-    console.log('this.getReviews(): ', this.getReviews());
+    // console.log('this.getReviews(): ', this.getReviews());
     var filters = '<label>filter by my rating</label><br /><a class="btn btn-default filter review" role="button" href="#all">all</a>';
     _.each(this.getReviews(), function(item) {
       filters += '<a class="btn btn-default filter review" role="button" href="#'+item+'">'+item+'</a>';

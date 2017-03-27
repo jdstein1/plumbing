@@ -56,13 +56,23 @@
   <script type="text/javascript" src="data/suppliers.json"></script>
 
   <script type="text/template" id="vendor-template">
-    <div class="header"><%= name %> <a href='<%= href %>' target='_blank' class="btn btn-default btn-sm" role="button">website</a> <span class="type <%= type %>"></span></div>
+    <div class="header">
+      <%= name %>
+      <a href='<%= href %>' target='_blank' class="btn btn-default btn-sm" role="button">website</a>
+      <span class="type <%= type %>"></span>
+    </div>
     <ul class="details">
       <!-- <li><span class="label">type:</span> <%= type %></li> -->
       <!-- <li><span class="label">link:</span> <a href='<%= href %>' target='_blank' class="btn btn-default btn-sm" role="button">website</a></li> -->
       <li><span class="label">products:</span> <%= products %></li>
       <li><span class="label">styles:</span> <%= styles %></li>
       <li><span class="label">review:</span> <%= review %></li>
+      <li><span class="label">notes:</span> <%= notes %></li>
+      <li><span class="label">examples:</span>
+        <ul class="list-examples">
+          <li><%= examples %></li>
+        </ul>
+      </li>
     </ul>
   </script>
 
