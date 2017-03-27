@@ -13,20 +13,20 @@
       initialize: function() {
         var self = this;
         if (this.get('products').length > 1) {
-          console.log("products MULTI");
+          // console.log("products MULTI");
           self.set('type','multi');
         } else if (this.get('products').length < 1) {
-          console.log("products ZERO");
+          // console.log("products ZERO");
           self.set('type','zero');
         } else {
-          console.log("products SINGLE");
+          // console.log("products SINGLE");
           self.set('type','single');
         }
         if (this.get('notes').length > 0) {
-          console.log("notes EXISTS");
+          // console.log("notes EXISTS");
         }
         if (this.get('examples').length > 0) {
-          console.log("examples EXISTS");
+          // console.log("examples EXISTS");
         }
       }
   });

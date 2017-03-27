@@ -15,15 +15,19 @@
     </header>
 
     <div id="tools">
-      <ul class="nav nav-tabs" role="tablist">
+      <!-- <input type="reset" class="btn reset float-r"> -->
+      <ul class="nav nav-pills" role="tablist">
         <li role="presentation" class="">
           <a data-toggle="tab" role="tab" href="#searching" aria-controls="searching">searching</a>
         </li>
         <li role="presentation">
           <a data-toggle="tab" role="tab" href="#filtering" aria-controls="filtering">filtering</a>
         </li>
-        <li role="presentation">
+        <!-- <li role="presentation">
           <a data-toggle="tab" role="tab" href="#sorting" aria-controls="sorting">sorting</a>
+        </li> -->
+        <li role="presentation">
+          <a data-toggle="tab" role="tab" href="#reset" aria-controls="reset" class="reset">reset</a>
         </li>
       </ul>
       <div class="tab-content">
@@ -40,11 +44,11 @@
           <fieldset class="form-group" id="byReview"></fieldset>
         </div>
         <div id="sorting" role="tabpanel" class="tab-pane"></div>
-        <div id="counting"></div>
+        <div id="reset"></div>
       </div>
     </div>
 
-    <h3>Choose products from these plumbing product makers:</h3>
+    <h3>Choose products from these <div id="counting"></div> plumbing product makers:</h3>
     <ul id="suppliers"></ul>
 
 <footer>
@@ -59,7 +63,7 @@
     <div class="header">
       <%= name %>
       <a href='<%= href %>' target='_blank' class="btn btn-default btn-sm" role="button">website</a>
-      <span class="type <%= type %>"></span>
+      <span class="float-r type <%= type %>"></span>
     </div>
     <ul class="details">
       <!-- <li><span class="label">type:</span> <%= type %></li> -->

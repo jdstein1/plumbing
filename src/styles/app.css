@@ -41,7 +41,7 @@ input[type=checkbox], input[type=radio] {width:1rem;height:1rem;background-color
 #suppliers {}
 #suppliers li .header {padding:0.25em 0.5em; margin:0;}
 #suppliers li .details {display:none;background-color:#333;color:#eee; padding:1em;}
-.header .type {opacity: 0.5;float:right;width: 1em; text-align: center;}
+.header .type {opacity: 0.5;width: 1em; text-align: center;}
 .header .type.single:after {content:"|";}
 .header .type.multi:after {content:"|||";}
 
@@ -55,4 +55,6 @@ input[type=checkbox], input[type=radio] {width:1rem;height:1rem;background-color
 .header:before {content:"\0002B";margin-right: 0.5em;}
 .header.current:before {content:"\02212";}
 .current {background-color:#eee;}
-
+.float-l {float:left;}
+.float-r {float:right;}
+.float-no {float:none;}

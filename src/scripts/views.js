@@ -65,7 +65,8 @@ app.views.Suppliers = Backbone.View.extend({
     'click a.filter.type':'setFilterType',
     'click a.filter.product':'setFilterProduct',
     'click a.filter.style':'setFilterStyle',
-    'click a.filter.review':'setFilterReview'
+    'click a.filter.review':'setFilterReview',
+    'click #tools .reset':'resetFilter'
   },
 
   render: function() {
@@ -271,6 +272,17 @@ app.views.Suppliers = Backbone.View.extend({
       myRouter.navigate('filter__review/'+filterReview);
     }
     console.log('this.collection: ', this.collection.length);
+  },
+
+  resetFilter: function(e) {
+    e.preventDefault();
+    console.log( $('#searchBox') );
+    $('#searchBox').reset();
+    console.log( $('#searchBox') );
+    // $('#searchBox').value = '';
+    this.collection.reset(suppliers);
+    myRouter.navigate('');
+    // this.trigger('change:filterReview');
   }
 
 });
