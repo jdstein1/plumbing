@@ -1,8 +1,7 @@
-.sass-cache/
-*.css.map
+#.sass-cache/
 .DS_Store
 node_modules/
 bower_components/
-dist/
-build/
-dest/
+#dist/
+#build/
+#dest/

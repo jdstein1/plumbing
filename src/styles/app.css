@@ -1,0 +1,58 @@
+/* basic elements */
+html, body {font-size:100%;padding: 0; margin: 0;}
+body {}
+
+h1, h2, h3, h4, h5, h6 {padding:0.5em 0 0.25em;}
+h5 {border-bottom:1px solid #ccc;}
+ul, ol, dl {text-indent:0;padding:0;margin:0; list-style-image: none; list-style-position: inside; list-style-type: none;}
+li, dt, dd {padding: 0; margin: 0;}
+
+/* containers */
+header {}
+nav {}
+main {}
+section {}
+article {}
+aside {}
+footer {}
+
+/* tables */
+table, tr, th, td {border-collapse:collapse;vertical-align:top;padding:0;margin:0;}
+table th, table td {border:1px inset grey;padding:0.5em;}
+
+/* forms */
+fieldset {border:1px solid #ccc;display:block;padding:0.5em;margin:0.25em;background-color: #eee;}
+label {font-size: 0.875em;}
+/* input {padding:0.5em;margin:0;border:0;box-shadow:0 0.125em 0.25em rgba(0,0,0,0.5) inset;} */
+input[type=checkbox], input[type=radio] {width:1rem;height:1rem;background-color:green;display:inline-block;border-radius:1em;padding:0;margin:0 0.5em 0 0;float:left;}
+
+/* tools */
+#tools {}
+#searching, #filtering, #sorting {}
+#searching {/* background-color:red; */}
+#filtering {/* background-color:green; */}
+#sorting {/* background-color:blue; */}
+/* .search, .filter, .sort {width:auto;height:auto;background-color:#def;display:inline-block;padding:0.5em;margin:0 0.125em 0.125em 0;} */
+/* .filter, .sort {box-shadow:0 0.125em 0.25em 0 rgba(0,0,0,0.5);} */
+.filter {/* background-color:#fde; */}
+.sort {/* background-color:#edf; */}
+
+/* suppliers list */
+#suppliers {}
+#suppliers li .header {padding:0.25em 0.5em; margin:0;}
+#suppliers li .details {display:none;background-color:#333;color:#eee; padding:1em;}
+.header .type {opacity: 0.5;float:right;width: 1em; text-align: center;}
+.header .type.single:after {content:"|";}
+.header .type.multi:after {content:"|||";}
+
+/* icons */
+.icon {width:auto;height:1em;background-color:yellow;display:inline-block;border-radius:1em;padding:0.25em;}
+.icon.arrow::after {content:"arr";}
+.icon.arrow.up::after {content:"up";}
+.icon.arrow.down::after {content:"dn";}
+
+/* misc */
+.header:before {content:"\0002B";margin-right: 0.5em;}
+.header.current:before {content:"\02212";}
+.current {background-color:#eee;}
+
