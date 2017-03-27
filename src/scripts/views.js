@@ -276,13 +276,9 @@ app.views.Suppliers = Backbone.View.extend({
 
   resetFilter: function(e) {
     e.preventDefault();
-    console.log( $('#searchBox') );
-    $('#searchBox').reset();
-    console.log( $('#searchBox') );
-    // $('#searchBox').value = '';
+    $('#searchBox').val('');
     this.collection.reset(suppliers);
     myRouter.navigate('');
-    // this.trigger('change:filterReview');
   }
 
 });
