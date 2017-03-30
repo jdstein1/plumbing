@@ -18,34 +18,32 @@
       <!-- <input type="reset" class="btn reset float-r"> -->
       <ul class="nav nav-pills" role="tablist">
         <li role="presentation" class="">
-          <a data-toggle="tab" role="tab" href="#searching" aria-controls="searching">searching</a>
+          <a data-toggle="collapse" class="btn btn-primary" role="button" href="#searching" aria-controls="searching">searching</a>
         </li>
         <li role="presentation">
-          <a data-toggle="tab" role="tab" href="#filtering" aria-controls="filtering">filtering</a>
+          <a data-toggle="collapse" class="btn btn-primary" role="button" href="#filtering" aria-controls="filtering">filtering</a>
         </li>
         <!-- <li role="presentation">
-          <a data-toggle="tab" role="tab" href="#sorting" aria-controls="sorting">sorting</a>
+          <a data-toggle="collapse" class="btn btn-primary" role="button" href="#sorting" aria-controls="sorting">sorting</a>
         </li> -->
         <li role="presentation">
-          <a data-toggle="tab" role="tab" href="#reset" aria-controls="reset" class="reset">reset</a>
+          <a data-toggle="collapse" class="btn btn-primary" role="button" href="#reset" aria-controls="reset" class="reset">reset</a>
         </li>
       </ul>
-      <div class="tab-content">
-        <div id="searching" role="tabpanel" class="tab-pane">
-          <fieldset class="form-group">
-            <label>search by name</label>
-            <input type="search" placeholder="search" id="searchBox" class="search form-control">
-          </fieldset>
-        </div>
-        <div id="filtering" role="tabpanel" class="tab-pane">
-          <fieldset class="form-group" id="byType"></fieldset>
-          <fieldset class="form-group" id="byProduct"></fieldset>
-          <fieldset class="form-group" id="byStyles"></fieldset>
-          <fieldset class="form-group" id="byReview"></fieldset>
-        </div>
-        <div id="sorting" role="tabpanel" class="tab-pane"></div>
-        <div id="reset"></div>
+      <div id="searching" role="" class="collapse panel">
+        <fieldset class="form-group">
+          <label>search by name</label>
+          <input type="search" placeholder="search" id="searchBox" class="search form-control">
+        </fieldset>
       </div>
+      <div id="filtering" role="" class="collapse panel">
+        <fieldset class="form-group" id="byType"></fieldset>
+        <fieldset class="form-group" id="byProduct"></fieldset>
+        <fieldset class="form-group" id="byStyles"></fieldset>
+        <fieldset class="form-group" id="byReview"></fieldset>
+      </div>
+      <div id="sorting" role="" class="collapse panel"></div>
+      <div id="reset"></div>
     </div>
 
     <h3>Choose products from these <div id="counting"></div> plumbing product makers:</h3>
