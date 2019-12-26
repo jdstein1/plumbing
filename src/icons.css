@@ -1,0 +1,73 @@
+.icon {
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  background: #333;
+  color: #999;
+  display: inline-block;
+  border-radius: 1em;
+  padding: 0.375em;
+  margin: 0;
+}
+.arrow::before {
+  content: "";
+}
+.arrow.up::after {
+  content: "⬆︎";
+}
+.arrow.down::after {
+  content: "⬇︎";
+}
+
+.bidets::after, 
+.cabinets::after, 
+.countertops::after, 
+.faucets::after, 
+.hardware::after, 
+.lighting::after, 
+.shower_doors::after, 
+.sinks::after, 
+.toilets::after, 
+.towel_warmers::after, 
+.tubs_acrylic::after, 
+.tubs_castiron::after {
+  content:'✦';
+}
+
+.bidets {
+  content:'bidets';
+}
+.cabinets {
+  content:'cabinets';
+}
+.countertops {
+  content:'countertops';
+}
+.faucets {
+  content:'faucets';
+}
+.hardware {
+  content:'hardware';
+}
+.lighting {
+  content:'lighting';
+}
+.shower_doors {
+  content:'shower_doors';
+}
+.sinks {
+  content:'sinks';
+}
+.toilets {
+  content:'toilets';
+}
+.towel_warmers {
+  content:'towel_warmers';
+}
+.tubs_acrylic {
+  content:'tubs_acrylic';
+}
+.tubs_castiron {
+  content:'tubs_castiron';
+}

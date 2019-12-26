@@ -1,0 +1,63 @@
+html {}
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, nav, main, footer {
+  padding:1rem;
+  margin:1rem;
+  background-color: #999;
+}
+header {
+  background-color: #369;
+}
+nav {
+  background: #666;
+  color: white;
+}
+main {
+  background-color: #ccc;
+}
+footer {
+  background-color: #693;
+}
+label {
+  padding:0;
+  margin:0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+  background: green;
+  display: inline-block;
+  border-radius: 1em;
+  padding: 0;
+  margin: 0 0.5em 0 0;
+}
+.sort,
+.filter {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0 0 0.25rem 0;
+  box-shadow: 0 0.125em 0.25em 0 rgba(0, 0, 0, 0.25);
+}
+.sort {
+  background: blue;
+  color: white;
+}
+.filter {
+  background: green;
+  color: white;
+}
+.list {
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style-image: none;
+  margin: 0 auto;
+  column-width: 10em;
+  column-gap: 2em;
+  column-rule: 1px solid #999;
+}

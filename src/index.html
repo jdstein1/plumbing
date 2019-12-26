@@ -3,59 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <title>Banner Plumbing - Suppliers</title>
-  <style>
-    html, body {font-size:100%;}
-    table, tr, th, td {border-collapse:collapse;vertical-align:top;padding:0;margin:0;}
-    table th, table td {border:1px inset grey;padding:0.5em;}
-    input[type=checkbox], input[type=radio] {width:1rem;height:1rem;background:green;display:inline-block;border-radius:1em;padding:0;margin:0 0.5em 0 0;float:left;}
-    .sorting, .filtering {background:#eee;display:block;padding:0.5em;}
-    .sort, .filter {width:auto;height:auto;background:#def;display:inline-block;padding:0.5em;margin:0 0.125em 0.125em 0;box-shadow:0 0.125em 0.25em 0 rgba(0,0,0,0.25);}
-    .sort {background:#edf;}
-    .filter {background:#fde;}
-    .icon {width:auto;height:1em;background:yellow;display:inline-block;border-radius:1em;padding:0.25em;}
-    .arrow::after {content:"arr";}
-    .arrow.up::after {content:"up";}
-    .arrow.down::after {content:"dn";}
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="icons.css" />
 </head>
 <body>
 
-  <h2>Banner Plumbing</h2>
-  <h1>Suppliers</h1>
+  <header>
+    <!-- <h2>Banner Plumbing</h2> -->
+    <h1>Plumbing Product Suppliers</h1>
+  </header>
+<nav>
+  <div class="sorting">
+    <h4>Sorting</h4>
+    <div class="sort">
+      <label for="sort_alpha">
+        <input type="radio" id="sort_alpha">
+        <span>by Name</span>
+        <span class="icon arrow up"></span>
+      </label>
+    </div>
+    <div class="sort">
+      <label for="sort_styles">
+        <input type="radio" id="sort_styles">
+        <span>by Style</span>
+        <span class="icon arrow down"></span>
+      </label>
+    </div>
+    <div class="sort">
+      <label for="sort_review">
+        <input type="radio" id="sort_review">
+        <span>by Review</span>
+        <span class="icon arrow down"></span>
+      </label>
+    </div>
+  </div>
 
-  <table>
-    <tr>
-      <td>
-        <div class="sorting">
-          <h4>Sorting</h4>
-          <div class="sort">Alpha <span class="icon arrow"></span></div>
-          <div class="sort">Style <span class="icon arrow"></span></div>
-          <div class="sort">Review <span class="icon arrow"></span></div>
-        </div>
-      </td>
-      <td>
-        <div class="filtering">
-          <h4>Filtering</h4>
-          <div class="filter"><label for="prod_bidets"><input type="checkbox" id="prod_bidets">bidets</label></div>
-          <div class="filter"><label for="prod_cabinets"><input type="checkbox" id="prod_cabinets">cabinets</label></div>
-          <div class="filter"><label for="prod_countertops"><input type="checkbox" id="prod_countertops">countertops</label></div>
-          <div class="filter"><label for="prod_faucets"><input type="checkbox" id="prod_faucets">faucets</label></div>
-          <div class="filter"><label for="prod_hardware"><input type="checkbox" id="prod_hardware">hardware</label></div>
-          <div class="filter"><label for="prod_lighting"><input type="checkbox" id="prod_lighting">lighting</label></div>
-          <div class="filter"><label for="prod_shower_doors"><input type="checkbox" id="prod_shower_doors">shower_doors</label></div>
-          <div class="filter"><label for="prod_sinks"><input type="checkbox" id="prod_sinks">sinks</label></div>
-          <div class="filter"><label for="prod_toilets"><input type="checkbox" id="prod_toilets">toilets</label></div>
-          <div class="filter"><label for="prod_towel_warmers"><input type="checkbox" id="prod_towel_warmers">towel_warmers</label></div>
-          <div class="filter"><label for="prod_tubs_acrylic"><input type="checkbox" id="prod_tubs_acrylic">tubs_acrylic</label></div>
-          <div class="filter"><label for="prod_tubs_castiron"><input type="checkbox" id="prod_tubs_castiron">tubs_castiron</label></div>
-        </div>
-      </td>
-    </tr>
-  </table>
-
+  <div class="filtering">
+    <h4>Filtering</h4>
+    <div class="filter">
+      <label for="prod_bidets">
+        <input type="checkbox" id="prod_bidets">
+        <span>bidets</span>
+        <span class="icon bidets"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_cabinets">
+        <input type="checkbox" id="prod_cabinets">
+        <span>cabinets</span>
+        <span class="icon cabinets"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_countertops">
+        <input type="checkbox" id="prod_countertops">
+        <span>countertops</span>
+        <span class="icon countertops"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_faucets">
+        <input type="checkbox" id="prod_faucets">
+        <span>faucets</span>
+        <span class="icon faucets"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_hardware">
+        <input type="checkbox" id="prod_hardware">
+        <span>hardware</span>
+        <span class="icon hardware"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_lighting">
+        <input type="checkbox" id="prod_lighting">
+        <span>lighting</span>
+        <span class="icon lighting"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_shower_doors">
+        <input type="checkbox" id="prod_shower_doors">
+        <span>shower_doors</span>
+        <span class="icon shower_doors"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_sinks">
+        <input type="checkbox" id="prod_sinks">
+        <span>sinks</span>
+        <span class="icon sinks"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_toilets">
+        <input type="checkbox" id="prod_toilets">
+        <span>toilets</span>
+        <span class="icon toilets"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_towel_warmers">
+        <input type="checkbox" id="prod_towel_warmers">
+        <span>towel_warmers</span>
+        <span class="icon towel_warmers"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_tubs_acrylic">
+        <input type="checkbox" id="prod_tubs_acrylic">
+        <span>tubs_acrylic</span>
+        <span class="icon tubs_acrylic"></span>
+      </label>
+    </div>
+    <div class="filter">
+      <label for="prod_tubs_castiron">
+        <input type="checkbox" id="prod_tubs_castiron">
+        <span>tubs_castiron</span>
+        <span class="icon tubs_castiron"></span>
+      </label>
+    </div>
+  </div>
+</nav>
+<main>
   <h3>Choose products from these plumbing product makers:</h3>
 
-  <ul>
+  <ul class="list">
     <li><a href="http://www.alumaxshowerdoor.com/" target="_blank" 
       data-products="shower_doors"
       data-styles="nostyle"
@@ -548,6 +622,9 @@
       data-review="noreview"
       data-name="Zucchetti">Zucchetti</a></li>
   </ul>
-
+</main>
+<footer>
+  <p>by Jeff Stein</p>
+</footer>
 </body>
 </html>
